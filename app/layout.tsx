@@ -13,16 +13,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 return (
 <html lang="en">
 <body>
-<Script
-src="https://cdn-cmp.predictive.dev/cmp.js"
-strategy="afterInteractive"
-charSet="UTF-8"
-/>
-<Script
-src="https://cdn-cmp.predictive.dev/5d2febd3-15e2-4bca-b1eb-4cbf1895e0ed/init.js"
-strategy="afterInteractive"
-charSet="UTF-8"
-/>
+<script src="https://cdn-cmp.predictive.dev/cmp.js" charset="UTF-8"></script>
+<script src="https://cdn-cmp.predictive.dev/ead5e285-8bef-4ba0-a13d-3014eec6ac95/init.js" charset="UTF-8"></script>
 {children}
 </body>
 </html>
