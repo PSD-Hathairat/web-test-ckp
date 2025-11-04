@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar';
 import type { Metadata } from 'next';
+import Script from 'next/script';
 
 
 export const dynamicParams = false; // only allow specified langs
@@ -22,6 +23,16 @@ params: { lang: 'en' | 'th' };
 }) {
 return (
 <div>
+<Script
+src="https://cdn-cmp.predictive.dev/cmp.js"
+strategy="afterInteractive"
+charSet="UTF-8"
+/>
+<Script
+src="https://cdn-cmp.predictive.dev/ead5e285-8bef-4ba0-a13d-3014eec6ac95/init.js"
+strategy="afterInteractive"
+charSet="UTF-8"
+/>
 <Navbar lang={params.lang} />
 <main className="container py-10 space-y-8">{children}</main>
 <footer className="container py-10 text-xs text-white/60">
