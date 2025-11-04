@@ -29,7 +29,7 @@ strategy="afterInteractive"
 charSet="UTF-8"
 />
 <Script
-src="https://cdn-cmp.predictive.dev/ead5e285-8bef-4ba0-a13d-3014eec6ac95/init.js"
+src="https://cdn-cmp.predictive.dev/51582c68-c05e-4533-8fc7-4eaf32e30bf5/init.js"
 strategy="afterInteractive"
 charSet="UTF-8"
 />
